@@ -12,21 +12,43 @@ knit        : slidify::knit2slides
 
 ---
 
-
-## Operações agrícolas
-Nos últimos anos as máquina agrícolas tiveram um avanço na tecnologia
-embarcada, como exemplo temos os sistemas de posicionamento, monitores de
-colheita, sensores de fluxo, potência dos motores, capacidade de produção das
-máquinas, etc. As operações mecanizadas representam um custo de aproxidamente
-11,00% na cultura da soja.
+# Operações agrícolas
+As operações mecanizadas visam a melhoria dos sistemas de produção,
+preconizando a agilidade e a qualidade dos processos, tendo como um dos
+limitadores o orçamento financeiro da empresa. Os custos das operações
+mecanizadas na cultura soja são de aproxidamente 11,00% 
 
 ![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1-1.png) 
+
+
 Fonte (IMEA, 2012)
 
+--- 
+
+## Planejamento
+
+Quanto mais complexo o sistema mecanizado, maior é a interferência da gerência
+para manter a integração entre o cronograma exigido e os recursos
+financeiros. A compreensão dos aspectos operacionais e econômicos pode 
+elevar a eficiência e a lucratividade do sistema. 
+
+<center><img src = PLOT_PLANNING_2a.png  width="450" height="50" /><center>
+
+
+---
+
+## Tomada de decisão
+
+No planejamento dos sistemas mecanizados, seja na aquisição ou substituição da
+maquinaria agrícola, entre os fatores que influenciam na tomada de decisão,
+cita-se a intenção da minimização do custo das operações, aumento da
+capacidade de campo e a implementação de novas técnicas. 
+
+<center><img src = TAKE_DECISION.png  width="600" height="50" /><center>
 
 
 ---  &radio
-# Qual a melhor opção para obter informações para tomada de decisão?
+## Qual a melhor opção para obter informações para tomada de decisão?
 
 1. Cálculos rápidos utilizando poucos dados.
 2. "Achismo". 
@@ -52,7 +74,7 @@ soja e milho.
 
 <center>![](PLANTER_3Khagif.gif)<center>
 
-<center>*CcO de aproximadamente 2,63 ha h^-1^.*<center>
+<center>*Simulação do custo operacional para um conjunto com CcO de 2,63 ha h^-1^.*<center>
 
 
 
