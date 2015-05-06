@@ -109,14 +109,14 @@ soja e milho.
 ##Pegando arquivos para simular 
 #PLANTER_3Kha <- getURL('https://raw.githubusercontent.com/rafatieppo/AGCOM_P/3fdf94c84c9cba9b24067f472221ecbb39c575bb/PLANTER_3kha.csv')
 # 
-getwd()
-PLANTER_3Kha <- read.csv("~/Dropbox/COURSERA/SLIDIFY/PLANTER_3kha.csv", sep="," , dec = '.')
-str(as.factor((PLANTER_3Kha$TEMPO)))
+#getwd()
+#PLANTER_3Kha <- read.csv("~/Dropbox/COURSERA/SLIDIFY/PLANTER_3kha.csv", sep="," , dec = '.')
+#str(as.factor((PLANTER_3Kha$TEMPO)))
  
 #Listas com os dados para gera os dados no FOR, primeiro FOR só com 100hm
 #segundo fOR com 100 e 200h, etc.
-a<-lapply(c(100, 200, 400, 600) , function (x)	subset(PLANTER_3Kha, PLANTER_3Kha$TEMPO <=x  )) 
-str(a)
+#a<-lapply(c(100, 200, 400, 600) , function (x)	subset(PLANTER_3Kha, PLANTER_3Kha$TEMPO <=x  )) 
+#str(a)
  
 ##Fazendo o GIF
 #png(file="PLANTER_3k%03d.png", width=668, height=321)
@@ -157,7 +157,7 @@ str(a)
 
 ## Opção 1
 Acesse o link
-[AGCOM Modulo Colhedora](https://agcom.shinyapps.io/DEVELOP_DATA_PROD/). Esta
+[AGCOM Modulo Colhedora](https://agcom.shinyapps.io/HARVEST/). Esta
 opção trata-se de um versão on-line simplificada software **AGCOM**, sendo possível
 estimar o custo operacional da operação de colheita com algumas restrições para
 alterar a entrada de dados, como por exemplo a eficiência operacional, valor de
