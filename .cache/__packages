@@ -6,3 +6,5 @@ devtools
 ggplot2
 ggthemes
 gridExtra
+markdown
+shiny
